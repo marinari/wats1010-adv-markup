@@ -1,32 +1,74 @@
 /* Styles for the Advanced Markup assignment. */
 
-.top-nav ul li{
-display: inline;
+.top-nav {
+	width: 100%;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	height: 35px;
+}
+
+.top-nav li {
+	display: inline;
+	text-decoration: none;
 }
 
 .top-nav li a {
 	list-style-type: none;
 	margin: 0;
+	padding: 8px;
+	color: #3cf;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+aside ul li {
+	list-style-type: none;
+	margin: 0;
 	padding: 0;
 }
 
-#sidebar {
-	float: right;
+aside ul {
+	margin-bottom: 30px;
 }
 
-.poem li a {
-	list-style-type: none:
+#content {
+	margin-bottom: 100px;
+}
+
+.poem li {
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 
 }
 
-.bottom-nav ul li{
+footer {
+	width: 100%;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+
+.bottom-nav li{
 	display: inline;
 }
 
 .bottom-nav li a {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 8px;
+}
+
+footer p {
+	font-size: 11px;
+	text-align: right;
+}
+
+#smalltext {
+	font-size: 10px;
+	line-height: 8px;
+	text-align: right;
 }
