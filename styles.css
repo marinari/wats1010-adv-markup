@@ -5,17 +5,22 @@
 	border: 1px solid #e7e7e7;
 	background-color: #f3f3f3;
 	height: 35px;
+	line-height: 30px;
+	text-align: center;
 }
 
 .top-nav li {
 	display: inline;
 	text-decoration: none;
+	border-right: 1px solid #bbb;
+
 }
 
 .top-nav li a {
 	list-style-type: none;
+	text-decoration: none;
 	margin: 0;
-	padding: 8px;
+	padding: 20px;
 	color: #3cf;
 }
 
@@ -60,6 +65,7 @@ footer {
 	list-style-type: none;
 	margin: 0;
 	padding: 8px;
+
 }
 
 footer p {
