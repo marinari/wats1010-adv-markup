@@ -1,5 +1,17 @@
 /* Styles for the Advanced Markup assignment. */
 
+body {
+	font-family: helvetica, sans-serif;
+}
+
+h1 {
+	font-family: serif;
+}
+
+h2 {
+	font-family: serif;
+}
+
 .top-nav {
 	width: 100%;
 	border: 1px solid #e7e7e7;
@@ -28,6 +40,7 @@ aside {
 	float: right;
 	width: 30%;
 	height: auto;
+	background-color: gray;
 }
 
 aside ul li {
