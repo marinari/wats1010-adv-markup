@@ -1,10 +1,18 @@
 /* Styles for the Advanced Markup assignment. */
 
+/* sticky footer */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	font-family: 'Playfair Display', Helvetica, sans-serif;
 	font-size: 14px;
 	background-color: #FCF7C5;
 	color: #29221F;
+	/*sticky footer */
+	margin: 0 0 70px;
 }
 
 h1 {
@@ -56,6 +64,10 @@ a:hover, a:active {
 	text-decoration: none;
 	border-right: 1px solid #FCF7C5;
 
+}
+
+.top-nav li:last-child {
+	border-right: none;
 }
 
 .top-nav li a {
@@ -132,12 +144,21 @@ footer {
 	width: 100%;
 	border: 1px solid #e7e7e7;
 	background-color: #29221F;
+	/* sticky footer */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
 }
 
 
 .bottom-nav li{
 	display: inline;
 	border-right: 1px solid #FCF7C5;
+}
+
+.bottom-nav li:last-child {
+	border-right: none;
 }
 
 .bottom-nav li a {
