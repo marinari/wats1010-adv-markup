@@ -108,7 +108,8 @@ aside ul {
 	font-size: 30px;
 	font-weight: 400;
 	font-style: italic;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+	line-height: 1.4;
 }
 
 .bio-photo img {
@@ -168,7 +169,7 @@ table {
   /* Thead */
 thead {
 	text-align: left;
-	background-color: #4caf50;
+	background-color: #0ABFBC;
 	color: white;
 	border: 1px solid black;
 }
