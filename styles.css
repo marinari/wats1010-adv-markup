@@ -6,7 +6,7 @@ html {
 	min-height: 100%;
 }
  */
- 
+
 body {
 	font-family: 'Playfair Display', Helvetica, sans-serif;
 	font-size: 14px;
@@ -45,7 +45,7 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover {
 	color:#FC354C;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #13747D;
@@ -78,14 +78,13 @@ a:hover, a:active {
 	padding: 20px;
 }
 
-/* figure out how to change the active class below
+/* active class below*/
 .active {
-	color:#FC354C;
 	text-decoration: underline;
-	text-shadow: 1px 1px 1px #13747D;
+	text-shadow: 1px 1px 1px #29221F;
 
 }
-*/
+
 
 aside {
 	float: right;
