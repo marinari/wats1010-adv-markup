@@ -1,18 +1,19 @@
 /* Styles for the Advanced Markup assignment. */
 
-/* sticky footer */
+/* sticky footer
 html {
 	position: relative;
 	min-height: 100%;
 }
-
+ */
+ 
 body {
 	font-family: 'Playfair Display', Helvetica, sans-serif;
 	font-size: 14px;
 	background-color: #FCF7C5;
 	color: #29221F;
-	/*sticky footer */
-	margin: 0 0 100px;
+	/*sticky footer 
+	margin: 0 0 100px;*/
 }
 
 h1 {
@@ -144,11 +145,11 @@ footer {
 	width: 100%;
 	border: 1px solid #e7e7e7;
 	background-color: #29221F;
-	/* sticky footer */
+	/* sticky footer 
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 100px;
+	height: 100px;*/
 }
 
 
