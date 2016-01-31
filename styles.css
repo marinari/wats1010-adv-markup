@@ -67,6 +67,7 @@ a:hover {
 
 }
 
+/* border line of last item in horizontal list doesnt show*/
 .top-nav li:last-child {
 	border-right: none;
 }
