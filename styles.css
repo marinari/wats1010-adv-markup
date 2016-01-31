@@ -65,12 +65,14 @@ a:hover, a:active {
 	padding: 20px;
 }
 
+/* figure out how to change the active class below
 .active {
 	color:#FC354C;
 	text-decoration: underline;
 	text-shadow: 1px 1px 1px #13747D;
 
 }
+*/
 
 aside {
 	float: right;
@@ -132,12 +134,10 @@ footer {
 	background-color: #29221F;
 }
 
-.bottom-nav {
-	border: 1px solid #BC2839;
-}
 
 .bottom-nav li{
 	display: inline;
+	border-right: 1px solid #FCF7C5;
 }
 
 .bottom-nav li a {
