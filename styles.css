@@ -1,7 +1,7 @@
 /* Styles for the Advanced Markup assignment. */
 
 body {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Playfair Display', Helvetica, sans-serif;
 	font-size: 14px;
 	background-color: #FCF7C5;
 	color: #29221F;
@@ -101,6 +101,13 @@ aside ul {
 	margin: 0;
 	padding: 0;
 
+}
+
+.poem {
+	font-family:'Playfair Display', cursive; 
+	font-size: 30px;
+	font-weight: 400;
+	font-style: italic;
 }
 
 .bio-photo img {
