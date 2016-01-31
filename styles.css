@@ -111,13 +111,13 @@ footer {
 
 footer p {
 	font-size: 11px;
-	text-align: right;
+	text-align: center;
 }
 
 #smalltext {
 	font-size: 10px;
-	line-height: 8px;
-	text-align: right;
+	line-height: 1.1;
+	text-align: center;
 }
 
 /* Tables */
