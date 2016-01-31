@@ -1,15 +1,43 @@
 /* Styles for the Advanced Markup assignment. */
 
 body {
-	font-family: helvetica, sans-serif;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 14px;
 }
 
 h1 {
 	font-family: serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
 }
 
 h2 {
 	font-family: serif;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* Anchors */
+a {
+	outline: 0;
+}
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #ccc;
+	padding: 0 1px;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color:#fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
 }
 
 .top-nav {
@@ -91,3 +119,33 @@ footer p {
 	line-height: 8px;
 	text-align: right;
 }
+
+/* Tables */
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 95%;
+}
+ 
+  /* Thead */
+thead {
+	text-align: left;
+	background-color: #4caf50;
+	color: white;
+	border: 1px solid black;
+}
+
+th {
+	text-align: left;
+	border: 1px solid black;
+}
+td {
+	height: 20px;
+	border-bottom: 1px solid #000;
+	border: 1px solid black;
+}
+
+caption {
+	caption-side: bottom;
+}
+ 
