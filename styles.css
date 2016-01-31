@@ -69,6 +69,8 @@ aside {
 	width: 30%;
 	height: auto;
 	background-color: gray;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 aside ul li {
@@ -83,6 +85,7 @@ aside ul {
 
 #content {
 	margin-bottom: 100px;
+	width: 60%
 }
 
 .poem li {
@@ -90,6 +93,18 @@ aside ul {
 	margin: 0;
 	padding: 0;
 
+}
+
+.bio-photo img {
+	float: left;
+	width: 150px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border: 1px solid black;
+}
+
+.bio-photo p {
+	font-size: 6px;
 }
 
 footer {
